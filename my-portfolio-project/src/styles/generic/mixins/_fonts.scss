@@ -6,7 +6,7 @@
 }
 
 @mixin h1 {
-  @include font($f-family, $f-weight-bold, 60px, 65px);
+  @include font($f-family-montserrat, $f-weight-bold, 60px, 65px);
 
   @include mq(large) {
     font-size: 35px;
@@ -20,7 +20,7 @@
 }
 
 @mixin h2 {
-  @include font($f-family, $f-weight-bold, 50px, 60px);
+  @include font($f-family-montserrat, $f-weight-bold, 50px, 60px);
 
   @include mq(large) {
     font-size: 32px;
@@ -35,7 +35,7 @@
 }
 
 @mixin h3 {
-  @include font($f-family, $f-weight-bold, 40px, 45px);
+  @include font($f-family-montserrat, $f-weight-bold, 40px, 45px);
 
   @include mq(large) {
     font-size: 30px;

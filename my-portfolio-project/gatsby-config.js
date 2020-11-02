@@ -12,7 +12,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Montserrat: 400, 500, 700', 'Roboto: 100, 400, 600']
+          families: ['Montserrat: 400, 500, 700', 'Lato: 300, 400']
         }
       }
     }

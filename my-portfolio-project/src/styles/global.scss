@@ -2,7 +2,6 @@
 @import 'generic/variables/breakpoints';
 @import 'generic/variables/colors';
 @import 'generic/variables/fonts';
-@import 'generic/variables/paths';
 @import 'generic/variables/spacings';
 
 // Functions //----------------------------------------------------------------
@@ -38,7 +37,6 @@
 @import 'components/header';
 @import 'components/jumbotron';
 @import 'components/map';
-@import 'components/post-preview';
 
 // Print //--------------------------------------------------------------------
 @media print {

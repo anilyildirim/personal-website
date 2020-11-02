@@ -1,3 +1,4 @@
 - Install necessary plugins
 - Optimize CSS
 - Remove inline CSS
+- SEO
