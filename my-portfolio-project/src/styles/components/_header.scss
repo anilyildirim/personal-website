@@ -1,15 +1,16 @@
+.header {
+  width: 100%;
+  background-color: $c-white;
+}
+
 .navigation {
+  @include container-medium;
+
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: $c-white;
-
-  &__inner {
-    @include container-medium;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   nav ul {
     @include reset-list;
@@ -19,6 +20,13 @@
     li:not(:last-child) {
       margin-right: 2rem;
     }
+  }
+
+  .main-logo {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1.8rem;
   }
 
   a {

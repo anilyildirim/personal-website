@@ -44,12 +44,3 @@
 @media print {
   @import 'generic/print.scss';
 }
-
-
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: lightcyan;
-    font-family: 'Montserrat';
-}

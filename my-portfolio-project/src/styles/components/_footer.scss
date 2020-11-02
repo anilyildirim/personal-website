@@ -6,8 +6,15 @@
   background-color: $c-black;
 
   &__inner {
+    @include reset-list;
     @include container-medium;
-
+    
     color: $c-white;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  ul li {
+    margin-right: 1rem;
   }
 }
